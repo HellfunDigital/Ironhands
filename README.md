@@ -1,4 +1,11 @@
-# Ironhands Battlescreen
+# Ironhands 
+
+This repository contains the files for an HTML game called Ironhands. The game is currently in development, and the goal is to create a game where players can collect new mecha and level them up for use in battles against enemies. Players will be able to select from different mecha and attacks to defeat enemies, and progress through a story-driven campaign.
+
+## Current Status
+Currently, the game features a basic battle system where a player can select from four different attacks to use against an enemy. The game also includes a game over screen that displays whether the player won or lost the battle. This is the current starting point, and more features and mecha will be added in the future.
+
+# Battle Screen (Working)
 
 This repository contains the files for a simple HTML game called Ironhands. The game features a battle between a player and an enemy, with the player able to select from four different attacks to use against the enemy. The game also includes a game over screen that displays whether the player won or lost the battle.
 
