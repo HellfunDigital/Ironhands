@@ -7,7 +7,7 @@ Currently, the game features a basic battle system where a player can select fro
 
 # Battle Screen (Working)
 
-This repository contains the files for a simple HTML game called Ironhands. The game features a battle between a player and an enemy, with the player able to select from four different attacks to use against the enemy. The game also includes a game over screen that displays whether the player won or lost the battle.
+The Battle folder contains the files for a battle between a player and an enemy, with the player able to select from four different attacks to use against the enemy. The game also includes a game over screen that displays whether the player won or lost the battle.
 
 ## Files
 * index.html: The main HTML file for the game, which includes the game's layout and structure.
