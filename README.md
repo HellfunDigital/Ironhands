@@ -1,4 +1,4 @@
-# Ironhands
+# Ironhands Battlescreen
 
 This repository contains the files for a simple HTML game called Ironhands. The game features a battle between a player and an enemy, with the player able to select from four different attacks to use against the enemy. The game also includes a game over screen that displays whether the player won or lost the battle.
 
