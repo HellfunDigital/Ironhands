@@ -3,6 +3,7 @@ let gameOver = false;
 const player = {
   name: 'Player',
   health: 100,
+  maxHealth: 100,
   attack: function(target, attackType) {
     let damage = getRandomIntInclusive(10, 25);
     target.health -= damage;
@@ -15,6 +16,7 @@ const player = {
 const enemy = {
   name: 'Enemy',
   health: 100,
+  maxHealth: 100,
   attack: function(target, attackType) {
     let damage = getRandomIntInclusive(10, 25);
     target.health -= damage;
@@ -64,6 +66,8 @@ function getRandomIntInclusive(min, max) {
 function updateHealthBars() {
   playerHealthBar.style.width = `${player.health}%`;
   enemyHealthBar.style.width = `${enemy.health}%`;
+  playerHealthBar.innerHTML = player.health + '/' + player.maxHealth;
+  enemyHealthBar.innerHTML = enemy.health + '/' + enemy.maxHealth;
 
   if (player.health < 50) {
     playerHealthBar.classList.add('low-health');
@@ -92,8 +96,11 @@ resetButtonWin.addEventListener('click', resetGame);
 function resetGame() {
   console.log("Reset button clicked");
   player.health = 100;
+  player.maxHealth = 100;
   enemy.health = 100;
+  enemy.maxHealth = 100;
   gameOver = false;
+  updateHealthBars();
   document.querySelector('#game-over-loss').classList.add('hidden');
   document.querySelector('#game-over-win').classList.add('hidden');
   playerHealthBar.style.width = '100%';
