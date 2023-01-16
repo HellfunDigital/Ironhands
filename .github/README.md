@@ -5,6 +5,9 @@ This repository contains the files for an HTML game called Ironhands. The game i
 ## Current Status
 Currently, the game features a basic battle system where a player can select from four different attacks to use against an enemy. The game also includes a game over screen that displays whether the player won or lost the battle. This is the current starting point, and more features and mecha will be added in the future.
 
+## View Online
+* View in a No-Download Test Environment: Ironhands - Battlescreen.
+
 # Battle Screen (Working)
 
 The Battle folder contains the files for a battle between a player and an enemy, with the player able to select from four different attacks to use against the enemy. The game also includes a game over screen that displays whether the player won or lost the battle.
