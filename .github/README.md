@@ -6,7 +6,7 @@ This repository contains the files for an HTML game called Ironhands. The game i
 Currently, the game features a basic battle system where a player can select from four different attacks to use against an enemy. The game also includes a game over screen that displays whether the player won or lost the battle. This is the current starting point, and more features and mecha will be added in the future.
 
 ## View Online
-* View in a No-Download Test Environment: Ironhands - Battlescreen.
+* View in a No-Download Test Environment: [Ironhands - Battlescreen](https://hellfundigital.github.io/PokeClock/)
 
 # Battle Screen (Working)
 
