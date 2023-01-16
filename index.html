@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ironhands</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="https://discord.com/channels/@me/1008320824064888914/1061989337748738098">
+</head>
+<body>
+
+    <div id="battle">
+
+      <div id="BattleLog">
+        </div>
+
+        <div id="player">
+  <div class="character-name">Player</div>
+  <div class="character-type-box"></div> <div class="character-elementType-box"></div>
+  <div id="player-sprite"></div>
+  <div class="character-health-bar">
+    <div class="current-health">100/100</div>
+  </div>
+</div>
+<div id="enemy">
+  <div class="character-name">Enemy</div>
+  <div class="character-type-box"></div> <div class="character-elementType-box"></div>
+  <div id="enemy-sprite"></div>
+  <div class="character-health-bar">
+    <div class="current-health">100/100</div>
+  </div>
+</div>
+
+        </div>
+        <div id="controls">
+          <button class="attack-button" id="attack1">Comet Crash</button>
+          <button class="attack-button" id="attack2">Thunder Strike</button>
+          <button class="attack-button" id="attack3">Shadow Strike</button>
+          <button class="attack-button" id="attack4">Eagle's Talon</button>
+        </div>
+      </div>
+
+      <div id="game-over-draw" class="game-over hidden">
+        <img src="https://cdn.discordapp.com/attachments/1008320824064888914/1061640759050244147/AaronelpisAlso_game_over_screen_in_unknown_language_runes_mecha_78b087df-5b33-4065-a286-f7b844674871.png">
+        <button id="reset-button-draw">Restart</button>
+      </div>
+
+      <div id="game-over-loss" class="game-over hidden">
+        <img src="https://media.discordapp.net/attachments/1008320824064888914/1062013298792476742/AaronelpisAlso_WIN_victory_screen_mecha_ba6d4680-a575-4e7b-b45b-023a4c5cb219.png">
+        <div class="Loss">Player Loss</div>
+      <button id="reset-button-loss">Restart</button>
+      </div>
+
+      <div id="game-over-win" class="game-over hidden">
+        <img src="https://cdn.discordapp.com/attachments/1008320824064888914/1062015178494967948/AaronelpisAlso_mecha_7bd4f697-26c8-4150-a53f-8b3db4fdf574.png">
+        <div class="Win">Player Win</div>
+      <button id="reset-button-win">Restart</button>
+      </div>
+
+      <script src="app.js"></script>
+
+</body>
+</html>
